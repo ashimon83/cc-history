@@ -1,20 +1,20 @@
-# cctape
+# ccakashic
 
-A CLI tool to browse Claude Code session logs (`~/.claude/projects/`) as beautiful HTML in your browser.
+An Akashic Record of your Claude Code sessions — browse Claude Code session logs (`~/.claude/projects/`) as beautiful HTML in your browser.
 
 ## Usage
 
 ### npx
 
 ```bash
-npx cctape
+npx ccakashic
 ```
 
 ### Run from source
 
 ```bash
-git clone git@github.com:ashimon83/cctape.git
-cd cctape
+git clone git@github.com:ashimon83/ccakashic.git
+cd ccakashic
 npm start
 ```
 
@@ -39,7 +39,7 @@ A local HTTP server starts and your browser opens automatically.
 
 ```bash
 # Custom port (default: 3333)
-CCTAPE_PORT=3000 npx cctape
+CCAKASHIC_PORT=3000 npx ccakashic
 ```
 
 ## Requirements

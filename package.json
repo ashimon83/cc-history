@@ -1,9 +1,9 @@
 {
-  "name": "cctape",
+  "name": "ccakashic",
   "version": "0.1.0",
-  "description": "Browse Claude Code session logs (~/.claude/projects/) as beautiful HTML in your browser",
+  "description": "Browse Claude Code session logs (~/.claude/projects/) as beautiful HTML in your browser — an Akashic Record of your Claude Code sessions",
   "bin": {
-    "cctape": "./bin/cctape.js"
+    "ccakashic": "./bin/ccakashic.js"
   },
   "files": [
     "bin",
@@ -15,7 +15,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "node bin/cctape.js"
+    "start": "node bin/ccakashic.js"
   },
   "dependencies": {},
   "keywords": [
@@ -26,16 +26,17 @@
     "viewer",
     "log",
     "jsonl",
-    "html"
+    "html",
+    "akashic"
   ],
   "author": "ashimon83",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashimon83/cctape.git"
+    "url": "git+https://github.com/ashimon83/ccakashic.git"
   },
-  "homepage": "https://github.com/ashimon83/cctape#readme",
+  "homepage": "https://github.com/ashimon83/ccakashic#readme",
   "bugs": {
-    "url": "https://github.com/ashimon83/cctape/issues"
+    "url": "https://github.com/ashimon83/ccakashic/issues"
   }
 }
